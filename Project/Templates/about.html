@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>About</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="/">Home</a>
+
+<a href="/about">About</a>
+
+<a href="/dashboard">Dashboard</a>
+
+<a href="/storyboard">Storyboard</a>
+
+</nav>
+
+<h1>UNESCO Heritage Project</h1>
+
+
+
+<div style="display: flex; align-items: center; padding: 30px;">
+
+    <div style="width: 50%;">
+        
+            <h1>About UNESCO</h1>
+
+<p>
+    
+The United Nations Educational, Scientific and Cultural Organization (UNESCO)
+is a specialized agency of the United Nations established in 1945. Its mission
+is to promote peace and sustainable development through international cooperation
+in education, science, culture, and communication.
+
+</p>
+<p>
+
+UNESCO identifies, protects, and preserves cultural and natural heritage sites
+that are considered to have outstanding value to humanity. These World Heritage
+Sites represent the rich history, traditions, biodiversity, and achievements of
+people across the globe.
+
+</p>
+<p>
+The organization also supports quality education, scientific research, freedom
+of expression, cultural diversity, and the preservation of historical monuments
+for future generations.
+
+</p>
+<p>
+This website provides information about UNESCO World Heritage Sites, their
+importance, history, and the need to protect these priceless treasures for the
+benefit of present and future generations.
+</p>
+        
+    </div>
+
+    <div style="width: 50%; text-align: center;">
+        <img src="{{ url_for('static', filename='images/image1.png') }}"
+             alt="UNESCO"
+             style="width:400px; height:auto;">
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
